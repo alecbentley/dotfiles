@@ -1,0 +1,169 @@
+{
+    "editor.fontFamily": "SF Mono",
+    "editor.cursorSurroundingLines": 10,
+    "vscode-neovim.neovimExecutablePaths.linux": "/usr/bin/nvim",
+    "vscode-neovim.neovimInitVimPaths.linux": "~/.config/nvim",
+    "vim.cursorStylePerMode.insert": "line-thin",
+    "vim.cursorStylePerMode.normal": "block",
+    "vim.cursorStylePerMode.visual": "block",
+    "vim.cursorStylePerMode.replace": "block",
+    "vim.cursorStylePerMode.visualblock": "block",
+    "editor.fontSize": 15,
+    "workbench.settings.applyToAllProfiles": [
+        "editor.fontSize"
+    ],
+    "security.workspace.trust.untrustedFiles": "open",
+    "vim.commandLineModeKeyBindings": [],
+    "vim.leader": " ",
+    "vim.neovimUseConfigFile": true,
+    "vscode-neovim.compositeKeys": {},
+    "vscode-neovim.highlightGroups.highlights": {
+        "IncSearch": {
+            "backgroundColor": "theme.editor.findMatchBackground"
+        },
+        "CurSearch": {
+            "backgroundColor": "theme.editor.findMatchBackground"
+        },
+        "Search": {
+            "backgroundColor": "theme.editor.findMatchHighlightBackground"
+        },
+        "Substitute": {
+            "backgroundColor": "theme.editor.foreground",
+            "color": "theme.editor.background"
+        }
+    },
+    "extensions.experimental.affinity": {
+        "ecmel.vscode-html-css": 1,
+        "ritwickdey.liveserver": 2,
+        "usernamehw.errorlens": 3,
+        "nouemankhal.global-fuzzy-search": 4
+    },
+    "editor.lineNumbers": "relative",
+    "editor.glyphMargin": true,
+    "editor.wordWrap": "on",
+    "vscode-double-line-numbers.font.family": "monospace",
+    "vscode-double-line-numbers.font.color": "#bdba75",
+    "prettier.configPath": "~/prettierrc",
+    "editor.formatOnSave": true,
+    "css.enabledLanguages": [
+        "html",
+        "typescript",
+        "vue"
+    ],
+    "editor.fontVariations": false,
+    "editor.codeActionsOnSave": {},
+    "errorLens.enabled": true,
+    "workbench.iconTheme": "Monokai Pro Icons",
+    "debug.javascript.debugByLinkOptions": "on",
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[javascript][javascriptreact][typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[json][jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[css][scss][less]": {
+        "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    "workbench.colorTheme": "Night Owl Theme",
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": [
+                    "variable.other.constant.js"
+                ],
+                "settings": {
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": [
+                    "entity.name.function"
+                ],
+                "settings": {
+                    "fontStyle": "italic bold"
+                }
+            },
+            {
+                "scope": [
+                    "storage.type"
+                ],
+                "settings": {
+                    "fontStyle": "italic",
+                    "foreground": "#7f88b8"
+                }
+            },
+            {
+                "scope": [
+                    "keyword",
+                    "meta.block variable.other",
+                    "meta.array-binding-pattern-variable.js"
+                ],
+                "settings": {
+                    "fontStyle": ""
+                }
+            },
+            {
+                "scope": [
+                    "constant.numeric"
+                ],
+                "settings": {
+                    "foreground": "#00fff2"
+                }
+            },
+            {
+                "scope": [
+                    "keyword.control"
+                ],
+                "settings": {
+                    "foreground": "#ffbb00"
+                }
+            },
+            {
+                "scope": [
+                    "variable.other.property.js"
+                ],
+                "settings": {
+                    "foreground": "#82AAFF"
+                }
+            },
+            {
+                "scope": [
+                    "variable.other.readwrite.js"
+                ],
+                "settings": {
+                    "foreground": "#B2CCD6"
+                }
+            },
+            {
+                "scope": [
+                    "support.variable.property.js"
+                ],
+                "settings": {
+                    "foreground": "#82AAFF"
+                }
+            },
+            {
+                "scope": [
+                    "keyword.operator.arithmetic.js"
+                ],
+                "settings": {
+                    "foreground": "#33ff00"
+                }
+            },
+            {
+                "scope": [
+                    "storage.type.function.arrow.js"
+                ],
+                "settings": {
+                    "fontStyle": "italic bold",
+                    "foreground": "#ff0000"
+                }
+            }
+        ]
+    },
+    "json.schemas": [],
+    "html.format.wrapAttributes": "force-expand-multiline"
+}
